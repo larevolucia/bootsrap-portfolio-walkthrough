@@ -33,6 +33,15 @@ h1, h2 {
     padding: 7% 5%;
 }
 
+#hero button {
+    background-color: var(--mid-blue);
+    border:var(--mid-blue);
+}
+#hero button:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a;
+}
+
 /*About section*/
 #about {
     background-color:white;
@@ -64,6 +73,16 @@ h1, h2 {
 #contact {
     background-color:white;
     
+}
+
+/*Modal*/
+#newsletter-modal button[type=submit] {
+    background-color: var(--mid-blue);
+    border: var(--mid-blue);
+}
+#newsletter-modal button[type=submit]:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a;
 }
 
 /* Use Bootstrap breakpoint for XL screens */
