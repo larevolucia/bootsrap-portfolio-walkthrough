@@ -54,6 +54,12 @@ h1, h2 {
 #portfolio .card-text {
     min-height: 120px;
 }
+
+
+.sharp-corners, .sharp-corners * {
+    border-radius: 0;
+}
+
 /*Contact section*/
 #contact {
     background-color:white;
